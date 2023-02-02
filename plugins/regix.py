@@ -84,13 +84,13 @@ async def pub_(bot, message):
                 await m.edit_text(f'Error: {e}')
             else:
                 buttons = [[
-                    InlineKeyboardButton('📜 Support Group', url='https://t.me/Akimaxmovies')
+                    InlineKeyboardButton('⚡️ AK IMAX HUB ⚡️', url='https://t.me/Akimaxmovies1')
                     ],[
                     InlineKeyboardButton('📡 Update Channel', url='https://t.me/Akimaxsupport')
                 ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 await m.edit_text(
-                    text=f"<u><i>Successfully Forwarded</i></u>\n\n<b>Total Forwarded Files:-</b> <code>{total_files}</code> <b>Files</b>\n<b>Thanks For Using Me❤️</b>",
+                    text=f"<u><i>Successfully Forwarded</i></u>\n\n<b>Total Forwarded Files:-</b> <code>{total_files}</code> <b>Files</b>\n<b>Thanks For Using AK IMAX services❤️</b>",
                     reply_markup=reply_markup,
                     parse_mode="html")
       
