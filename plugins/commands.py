@@ -15,10 +15,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('🎻 Panipuri-Music', url='https://t.me/Panipoori_streamingbot'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/akimaxmovies')
+        InlineKeyboardButton('⚡️ Ak Imax 2.0 ⚡️', url='https://t.me/akimax3'),
+        InlineKeyboardButton('⚡️ AK IMAX HUB ⚡️', url='https://t.me/akimaxmovies1')
         ],[
-        InlineKeyboardButton('💡 owner', url='https://t.me/Bae_wafaaa'),
+        InlineKeyboardButton('💡 Owner', url='https://t.me/BATMAN_0'),
         InlineKeyboardButton('📜 Support Group', url ='https://t.me/akimaxsupport')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -34,7 +34,7 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 Developer', url='https://t.me/Bae_wafaaa'),
+        InlineKeyboardButton('💡 Developer', url='https://t.me/BATMAN_0'),
         InlineKeyboardButton('close 🔐', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,7 +49,7 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('SouceCode 💡', url='https://t.me/Bae_wafaaa'),
+        InlineKeyboardButton('⚡️ AK IMAX (Buy SouceCode)⚡️', url='https://t.me/AKImaxPremium2'),
         InlineKeyboardButton('close 🔐', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -66,9 +66,9 @@ async def about(client, message):
 @Client.on_message(filters.private & filters.command(['restart']))
 async def restart(client, message):
     msg = await message.reply_text(
-        text="<i>Trying to restarting.....</i>"
+        text="<i>Trying to restart on AK IMAX Server's.....</i>"
     )
     await asyncio.sleep(5)
-    await msg.edit("<i>Server restarted successfully ✅</i>")
+    await msg.edit("<i>AK IMAX Server's restarted successfully ✅</i>")
     os.execl(sys.executable, sys.executable, *sys.argv)
     
