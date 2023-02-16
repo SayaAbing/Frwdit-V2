@@ -21,6 +21,6 @@ class Config:
 #Enter Your Telegram id
     OWNER_ID = os.environ.get("OWNER_ID", "1105331049")
 #Pyrogram string Seccion - https://replit.com/@KindKobra/Pyrogram-String-Gen?v=1 or any updated pyrogram string session 
-    SESSION = os.environ.get("SESSION", "BQAexKqM7vVe5JQ0SWySuFp8Sflw_gjEUD8vZRQSxESkTOIAzVndiiza9CiIEw-jDTKQwLiqlWPG_YQ17mc9wy66kiTnT9P2yA0k1qNIchJWODrLRiCuuFyuYBH01uTVc0ERp0LB_R7YS5-HyvtPKN_5jOkGr7rveq1tJQXrV0aNmee4qxqhTP4zzvDG4aH0F69tQnTSyzf59fBs_xGilWInOMqnPxwl2Y-m2wGeGxzlpzOe-SwkGExU__UBgTnRU_77n4rgCU9q-j2-BCxEvNsTmIDLEFI4IqziPEyrklAMKurgc2OfU2Vugtumg_hCgfOtKABan6kge2qkfo_SpS6ZAAAAAWuYknoA")
+    SESSION = os.environ.get("SESSION", "BQBAI9oY5ef_SAj0OF6qJqGgPw_WgjlHryyrMEsjdifVHFQRgodP7eiX2vHtWZIIweulrUyNmUMupKg1R3SXMd_gbNPjeI3GHAMHYmxX41-3tezHJQf_yDhgz430Mcc9fdG-OGM4d0qEYjlsC0G4o4nu4WMrfSnB9s1F3_aEki5Fx04ZsN54K4BdI4xgn3CLMGX0GJZKH9AwQbNzH1unnBqczRACuJP0zP_BgrxL2ycvODK4DIjWVYcyPGxevmPNV4vkZ6yrHV7wiOoY5RFRAWLL82c5QU9RhLst_8Fp2-N7NxafFjFUnSU2YO4UUKPBLza3W2bKOSvvwvj99CidNOovAAAAAWuYknoA")
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
