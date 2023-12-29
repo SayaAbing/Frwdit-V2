@@ -13,7 +13,7 @@
   ],
   "success_url": "https://t.me/bae_wafaaa",
   "website": "https://t.me/bae_wafaaa",
-  "repository": "https://github.com/Shinigamibots5/Frwdit-V2",
+  "repository": "https://github.com/SayaAbing/Frwdit-V2",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
